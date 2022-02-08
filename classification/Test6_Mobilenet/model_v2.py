@@ -36,7 +36,7 @@ class InvertedResidual(nn.Module):
 
         layers = []
         if expand_ratio != 1:
-            # 1*1 pointWise conv
+            # 1*1 pointWise conv 升维操作
             layers.append(ConvBNReLU(in_channel, hidden_channel, kernel_size=1))
         layers.extend([
             # 3*3 depthWise conv
