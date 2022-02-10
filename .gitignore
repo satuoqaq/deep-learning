@@ -6,5 +6,7 @@
 *.iml
 out
 gen
-
+*.pth
 data_set
+*weight
+*runs
