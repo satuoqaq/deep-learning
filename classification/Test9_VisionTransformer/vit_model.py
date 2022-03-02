@@ -4,7 +4,6 @@ https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision
 """
 from functools import partial
 from collections import OrderedDict
-
 import torch
 import torch.nn as nn
 
